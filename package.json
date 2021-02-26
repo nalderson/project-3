@@ -7,7 +7,8 @@
   "scripts": {
     "test": "mocha __tests__/*_test.js --require __tests__/helper.js --recursive --exit",
     "seed": "node db/seed.js",
-    "start": "npx nodemon index.js"
+    "start": "npx nodemon index.js",
+    "build": "cd client; npm run build; cd .."
   },
   "author": "",
   "license": "ISC",

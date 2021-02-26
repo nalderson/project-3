@@ -16,7 +16,7 @@ import UpdateCity from './components/UpdateCity'
 import PostCity from './components/PostCity'
 import Map from './components/Map'
 
-
+console.log('hi')
 
 
 
